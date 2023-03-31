@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: rabbit-client
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: adminPass
+    virtual-host: /someVirtualHost/
+    ssl:
+      enabled: false
